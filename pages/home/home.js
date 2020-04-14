@@ -140,12 +140,10 @@ Page({
   // 品质传参
   onChange: function (res) {
     var than = this
-    // console.log(res.currentTarget.dataset.name)
-    // console.log(res.currentTarget.dataset.img)
     wx.setStorageSync('keyname', res.currentTarget.dataset.name)
     wx.setStorageSync('keyimg', res.currentTarget.dataset.img)
-    console.log(wx.getStorageSync('keyname'))
-    console.log(wx.getStorageSync('keyimg'))
+    // console.log(wx.getStorageSync('keyname'))
+    // console.log(wx.getStorageSync('keyimg'))
   },
   //轮播
   // 初始化towerSwiper

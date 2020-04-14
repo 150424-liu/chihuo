@@ -1,13 +1,15 @@
 {
   "pages": [
+    "pages/food/food",
     "pages/home/home",
+    "pages/appointment/appointment",
+    "pages/details/details",
     "pages/index/index",
     "pages/logs/logs",
     "pages/vip/vip",
     "pages/shop/shop",
     "pages/my/my",
-    "pages/business/business",
-    "pages/details/details"
+    "pages/business/business"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,7 +23,6 @@
     "van-col": "/miniprogram/miniprogram_npm/@vant/weapp/col/index",
     "van-divider": "/miniprogram/miniprogram_npm/@vant/weapp/divider/index"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "color": "#858585",
